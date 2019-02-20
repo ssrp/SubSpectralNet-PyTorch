@@ -1,0 +1,8 @@
+matplotlib==2.1.0
+torchvision==0.2.1
+dcase_util==0.2.5
+torch==1.0.1.post2
+pytorch-ignite==0.1.2
+numpy==1.15.4
+librosa==0.6.2
+tensorboardX==1.6
