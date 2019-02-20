@@ -42,7 +42,14 @@ python main.py --root-dir <location_of_dataset>/TUT-urban-acoustic-scenes-2018-d
 For more settings, the code is well-commented and it's easy to change the parameters looking at the comments. 
 
 ## Results
-The results of the network are shared in Section 4 of the paper. Following is the accuracy curve obtained after training the model on 40 mel-bin magnitude spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size (72.18%, average-best accuracy in three runs).
+
+You should be able to see the losses for every iteration on the console. Other than this, you could also visualize the losses on TensorBoard by creating a tensorboard session using the following command (run on a new console, in the same directory):
+```
+tensorboard --logdir=.
+```
+For your convenience, there is one log file in the code/tensorboard-logs directory.
+
+The statistical results of the network are shared in Section 4 of the paper. Following is the accuracy curve obtained after training the model on 40 mel-bin magnitude spectrograms, 20 sub-spectrogram size and 10 mel-bin hop-size (72.18%, average-best accuracy in three runs).
 
 <p align = "center">
 <img src="https://raw.githubusercontent.com/ssrp/SubSpectralNet/master/figures/AccPlot.png" width="480">
