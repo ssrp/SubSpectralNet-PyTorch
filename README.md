@@ -18,9 +18,9 @@ If you have any queries regarding the code, please contact us on the following e
 
 ## Usage
 
-Following are the steps to to follow for training the model on our implementation:
+Following are the steps to to follow for using this implementation:
 
-Before training the model, it is expected that you [download the dataset](https://zenodo.org/record/1228142) and extract the files. You should see a folder named "TUT-urban-acoustic-scenes-2018-development". Once you get this folder, following are the steps to execute the code:
+Before anything, it is expected that you download and extract the [DCASE 2018 ASC Development Dataset](https://zenodo.org/record/1228142). You should obtain a folder named "TUT-urban-acoustic-scenes-2018-development", which contains various folders like "audio", "evaluation_setup" etc. Once you get this folder, following are the steps to execute the code:
 
 **Step 1. Clone the repository to local.**
 Download the repository:
