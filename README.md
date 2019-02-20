@@ -20,7 +20,7 @@ If you have any queries regarding the code, please contact us on the following e
 
 Following are the steps to to follow for training the model on our implementation:
 
-Before training the model, it is expected that you [download the dataset](https://zenodo.org/record/1228142) and extract the same. You should see a folder named "TUT-urban-acoustic-scenes-2018-development". Once you get this folder, following are the steps to execute the code:
+Before training the model, it is expected that you [download the dataset](https://zenodo.org/record/1228142) and extract the files. You should see a folder named "TUT-urban-acoustic-scenes-2018-development". Once you get this folder, following are the steps to execute the code:
 
 **Step 1. Clone the repository to local.**
 Download the repository:
