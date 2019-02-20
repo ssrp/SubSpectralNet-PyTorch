@@ -43,7 +43,7 @@ For more settings, the code is well-commented and it's easy to change the parame
 
 ## Results
 
-You should be able to see the losses for every iteration on the console. Other than this, you could also visualize the losses on TensorBoard by creating a tensorboard session using the following command (run on a new console, in the same directory):
+You should be able to see the losses for every iteration on the console. Additionally, you could also visualize the losses on TensorBoard by creating a tensorboard session using the following command (run on a new console, in the same directory):
 ```
 tensorboard --logdir=.
 ```
