@@ -22,13 +22,13 @@ Following are the steps to follow for using this implementation:
 
 Before anything, it is expected that you download and extract the [DCASE 2018 ASC Development Dataset](https://zenodo.org/record/1228142). You should obtain a folder named "TUT-urban-acoustic-scenes-2018-development", which contains various subfolders like "audio", "evaluation_setup" etc. Once you get this folder, following are the steps to execute the code:
 
-**Step 1. Clone the repository to local.**
+**Step 1. Clone the repository to local**
 ```
 git clone https://github.com/ssrp/SubSpectralNet-PyTorch.git SubSpectralNets
 cd SubSpectralNets/code
 ```
 
-**Step 2. Install the prerequisites.**
+**Step 2. Install the prerequisites**
 ```
 pip install -r requirements.txt
 ```
